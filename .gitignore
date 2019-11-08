@@ -1,7 +1,33 @@
-/.idea/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/disconf
+out
+.gradle
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
-/app-core/target/
-/app-model/target/
-/app-core/.idea/
-/tms-common/target/
-/.project
+*.ipr
+logging.path_IS_UNDEFINED
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### mac ###
+.DS_Store
+
+**/logs/

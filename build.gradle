@@ -1,0 +1,20 @@
+group 'cn.keking.project'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+        "io.netty:netty-all:4.1.43.Final",
+        "com.google.protobuf:protobuf-java:3.10.0",
+        "com.google.protobuf:protobuf-java-util:3.10.1",
+        "org.apache.thrift:libthrift:0.12.0"
+    )
+}
