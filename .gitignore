@@ -1,0 +1,7 @@
+/.idea/
+*.iml
+/app-core/target/
+/app-model/target/
+/app-core/.idea/
+/tms-common/target/
+/.project
